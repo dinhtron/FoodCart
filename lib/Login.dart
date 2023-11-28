@@ -58,7 +58,7 @@ class _Login extends State<Login> {
               padding: const EdgeInsets.only(
                   left: 20.0, top: 20.0, right: 10.0, bottom: 0.0),
               child: Text(
-                'Login/Sign up with your acount',
+                'Đăng nhập',
                 textAlign: TextAlign.start,
                 style: TextStyle(
                     color: Colors.blueGrey,
@@ -74,7 +74,7 @@ class _Login extends State<Login> {
                 keyboardType: TextInputType.name,
                 decoration: InputDecoration(
                   icon: Icon(Icons.account_circle),
-                  labelText: 'Username',
+                  labelText: 'Tên đăng nhập',
                   labelStyle: TextStyle(
                     color: Colors.black,
                   ),
@@ -91,7 +91,7 @@ class _Login extends State<Login> {
                 onChanged: (text) {},
                 decoration: InputDecoration(
                   icon: Icon(Icons.password_sharp),
-                  labelText: 'Password',
+                  labelText: 'Mật khẩu',
                   errorText: _validate ? null : 'Wrong user name or password ',
                   labelStyle: TextStyle(
                     color: Colors.black,
@@ -127,7 +127,7 @@ class _Login extends State<Login> {
                   padding: EdgeInsets.only(
                       left: 30.0, right: 30.0, top: 10, bottom: 10),
                   child: Text(
-                    'Login',
+                    'Đăng nhập',
                     style:
                         TextStyle(fontSize: 16, fontWeight: FontWeight.normal),
                   ),
