@@ -185,5 +185,4 @@ List<MenuItem> menuItems = [
     image: 'assets/img/chacathanglong.jpg',
     price: 60000,
   ),
-  // Thêm các mục menu khác nếu cần
 ];
